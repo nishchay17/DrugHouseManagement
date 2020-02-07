@@ -10,6 +10,6 @@ struct medicine{
     unsigned price;
 };
 struct medicine getMedicine(struct medicine parameter);
-void showMedicine(struct medicine parameter);
+void const showMedicine(struct medicine parameter);
 
 #endif

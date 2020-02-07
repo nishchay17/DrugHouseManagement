@@ -18,7 +18,7 @@ struct medicine getMedicine(struct medicine parameter){
     return parameter;
 }
 
-void showMedicine(struct medicine parameter){
+void const showMedicine(struct medicine parameter){
     printf("Medicine name : ");
     printf("%s",parameter.medicineName);
     printf("\nExpiration date : ");
